@@ -15,35 +15,46 @@
 secrets.*
 *.pem
 *.key
+*.p12
+*.pfx
+*.crt
+*.cer
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# ============================
+# Dependencies
+# ============================
+node_modules/
+
+# ============================
+# Build / Compiled Output
+# ============================
+dist/
+build/
 
 # ============================
 # Logs
 # ============================
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
 # ============================
-# Dependencies & Build
+# OS / Editor
 # ============================
-node_modules
-dist
-dist-ssr
-*.local
-
-# ============================
-# Editor directories and files
-# ============================
+.DS_Store
+Thumbs.db
+.idea/
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# ============================
+# Misc
+# ============================
+coverage/
+.nyc_output/
+.cache/
