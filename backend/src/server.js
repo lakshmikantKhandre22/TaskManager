@@ -34,9 +34,9 @@ dns.promises.resolveSrv = async (hostname) => {
       // Known Atlas shard naming convention: ac-<clusterId>-shard-00-0X.<domain>
       // We use a probe lookup to discover the actual shard prefix
       const shardNames = [
-        `ac-yniuki5-shard-00-00.${domain}`,
-        `ac-yniuki5-shard-00-01.${domain}`,
-        `ac-yniuki5-shard-00-02.${domain}`,
+        `ac-flpn8wy-shard-00-00.${domain}`,
+        `ac-flpn8wy-shard-00-01.${domain}`,
+        `ac-flpn8wy-shard-00-02.${domain}`,
       ];
 
       // Verify each shard is reachable via OS lookup before returning
