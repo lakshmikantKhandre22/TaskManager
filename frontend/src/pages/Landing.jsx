@@ -11,9 +11,7 @@ const Landing = () => {
           <div className="bg-indigo-600 p-2.5 rounded-xl text-white shadow-premium">
             <FiCheckSquare className="w-6 h-6" />
           </div>
-          <span className="font-heading font-bold text-2xl tracking-tight text-slate-900">
-            TaskFlow <span className="text-indigo-650">AI</span>
-          </span>
+            TaskFlow
         </div>
         <div className="flex items-center gap-4">
           <Link
@@ -41,7 +39,7 @@ const Landing = () => {
         </span>
         
         <h2 className="font-heading font-extrabold text-4xl sm:text-5xl md:text-6xl text-slate-900 mt-6 tracking-tight max-w-4xl leading-tight">
-          Supercharge Your Productivity with <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-500">TaskFlow AI</span>
+          Supercharge Your Productivity with <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-500">TaskFlow</span>
         </h2>
         
         <p className="text-lg text-slate-500 mt-6 max-w-2xl leading-relaxed">
@@ -100,7 +98,7 @@ const Landing = () => {
 
       {/* Footer */}
       <footer className="border-t border-slate-200/50 bg-white/80 py-8 px-6 text-center text-xs text-slate-400 mt-auto">
-        &copy; {new Date().getFullYear()} TaskFlow AI. All rights reserved.
+        &copy; {new Date().getFullYear()} TaskFlow. All rights reserved.
       </footer>
     </div>
   );

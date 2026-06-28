@@ -65,7 +65,7 @@ const Register = () => {
             <div className="bg-indigo-600 p-2 rounded-lg text-white">
               <FiCheckSquare className="w-5 h-5" />
             </div>
-            <span className="font-heading font-bold text-xl text-slate-900">TaskFlow AI</span>
+            <span className="font-heading font-bold text-xl text-slate-900">TaskFlow</span>
           </Link>
           <h2 className="font-heading font-semibold text-2xl text-slate-800">Create Account</h2>
           <p className="text-sm text-slate-400 mt-1">Get started with your free account today</p>

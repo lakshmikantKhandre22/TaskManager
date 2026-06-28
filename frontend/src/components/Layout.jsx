@@ -42,7 +42,7 @@ const Layout = ({ children, onCreateTaskClick }) => {
           <div className="bg-indigo-600 p-2 rounded-lg text-white">
             <FiCheckSquare className="w-6 h-6" />
           </div>
-          <span className="font-heading font-bold text-xl tracking-tight">TaskFlow <span className="text-indigo-400">AI</span></span>
+          <span className="font-heading font-bold text-xl tracking-tight">TaskFlow</span>
         </div>
 
         <nav className="flex-1 px-4 py-6 space-y-2">
@@ -85,7 +85,7 @@ const Layout = ({ children, onCreateTaskClick }) => {
             <div className="bg-indigo-600 p-2 rounded-lg text-white">
               <FiCheckSquare className="w-6 h-6" />
             </div>
-            <span className="font-heading font-bold text-xl">TaskFlow AI</span>
+            <span className="font-heading font-bold text-xl">TaskFlow</span>
           </div>
           <button
             onClick={() => setMobileOpen(false)}
